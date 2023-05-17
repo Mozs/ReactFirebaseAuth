@@ -80,7 +80,7 @@ export default function Signin() {
         <div className="flex items-center mb-2">
           <button
             className="bg-red-500 hover:bg-red-600 text-white font-bold w-full py-2 px-3 rounded focus:outline-none focus:shadow-outline"
-            type="button"
+            type="submit"
           >
             Sign In
           </button>

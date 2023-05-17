@@ -14,9 +14,17 @@ export default function App() {
      <Route exact path="/" element={
       <PrivateRoute>
       <Dashboard />
+      </PrivateRoute>
+     }>
+     
+     </Route>
+     <Route exact path="/update-profile" element={
+      <PrivateRoute>
       <UpdateProfile />
       </PrivateRoute>
-     }></Route>
+     }>
+     
+     </Route>
     <Route path="/signup" element={<Signup />} />
     <Route path="/signin" element={<Signin />} />
     <Route path="/forgot-password" element={<ForgotPassword />} />
